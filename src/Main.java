@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int Ticer = 13676;
+        int ticket = 10000;
 
-        int price = 20;{
-            int mile = 1;
-        }
-        int mile = Ticer / price;
-            System.out.println("Вам вернулась " + mile + " милями");
+        int mile = 20 / 1;
+
+
+        int bonus = ticket / mile;
+        System.out.println("Вам вернулась " + bonus + " милями");
         System.out.println("Можете потратить на новые путишествия ");
     }
 }
